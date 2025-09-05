@@ -5,7 +5,7 @@ Welcome to personal website of Alethea Almas Fahrana. I'm Indonesian living in C
 This website will be available in **two languages** (English and Chinese) and support **two screen modes** (light and dark).
 
 - View it here: [aletheaalmas.com](https://aletheaalmas.com)
-- Design link: [UI Design](https://www.figma.com/design/aKawpdPxNjhOKhaLWvmHaO/aletheaalmas.com?node-id=5-17)
+- Design link: [UI Design](https://www.figma.com/design/aKawpdPxNjhOKhaLWvmHaO/aletheaalmas.com)
 
 > Note: Website is still in progress
 
