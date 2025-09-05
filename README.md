@@ -1,6 +1,6 @@
 # Hello! I'm Ale🧕🏻
 
-Welcome to Ale's personal website. I'm Indonesian living in China who starting to learn about **full-stack web development**.
+Welcome to personal website of Alethea Almas Fahrana. I'm Indonesian living in China who starting to learn about **full-stack web development**.
 
 This website will be available in **two languages** (English and Chinese) and support **two screen modes** (light and dark).
 
