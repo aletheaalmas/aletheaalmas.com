@@ -57,4 +57,4 @@ The website will include the following features:
 
 ### Home
 
-![home](images/home-light-en.jpg)
+![home](assets/images/home-light-en.jpg)
