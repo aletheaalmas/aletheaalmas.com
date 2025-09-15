@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>FEFO项目</title>
+    <meta
+      name="description"
+      content="Section FEFO Project of Alethea Personal Website-Chinese Version"
+    />
+    <meta name="author" content="Alethea Almas Fahrana" />
+    <meta name="color-scheme" content="dark light" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/../../assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/../../assets/favicon/favicon.svg"
+    />
+    <link rel="shortcut icon" href="/../../assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/../../assets/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Alethea" />
+    <link rel="manifest" href="/../../assets/favicon/site.webmanifest" />
+  </head>
+
+  <body>
+    <header class="navbar">
+      <nav>
+        <div class="navbar-logo">
+          <a href="index.html" id="logo">
+            <img
+              src="/../../assets/images/logo-light.png"
+              alt="Logo of Alethea with initials AE in a modern and minimalist style "
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
+
+        <div class="navbar-container">
+          <ul>
+            <li><a href="/cn/index.html">首页</a></li>
+            <li><a href="/cn/about/index.html">关于我</a></li>
+            <li><a href="/cn/project/index.html">项目</a></li>
+            <li><a href="/cn/contact/index.html">联系我</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <aside class="sidebar">
+      <div class="published-section"></div>
+      <div class="section-title">
+        <h3>发布时间</h3>
+        <p>2023年8月</p>
+        <a href="#comments" class="comments-link">查看评论</a>
+      </div>
+
+      <div class="topic-section">
+        <div class="section-title">
+          <h3>主题</h3>
+        </div>
+        <div class="topic-content">
+          仓库管理系统<br />
+          库存管理系统<br />
+          FEFO<br />
+          UX 研究<br />
+        </div>
+      </div>
+
+      <div class="content-section">
+        <div class="section-title">
+          <h3>目录</h3>
+        </div>
+        <ul class="content-list">
+          <li>
+            <a href="#overview">概述</a>
+          </li>
+          <li>
+            <a href="#my-contributions">我参与的工作</a>
+          </li>
+          <li>
+            <a href="#result">结果</a>
+          </li>
+          <li>
+            <a href="#link">链接</a>
+          </li>
+          <li>
+            <a href="#comments">评论</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+      <article>
+        <h1>在仓库管理系统中新增FEFO（先到期，先出）功能</h1>
+
+        <section id="overview">
+          <h2>概述:</h2>
+          <p>
+            我参与的另一个重要项目是为仓库管理系统（WMS）增加
+            先到期，先出（FEFO） 功能。 这个想法最初来自于用户需求。当时，WMS
+            只支持先进先出（FIFO）出库方式，这给处理有保质期的商品（如食品和药品）的卖家带来了挑战。
+          </p>
+          <p>
+            为了解决这一问题，我首先进行了用户研究，采访了仓库团队，了解他们的日
+            常操作和痛点，并研究了竞争对手的做法。经过多轮研究、讨论和开发，我们
+            的团队最终成功上线了 FEFO 功能。虽然该功能没有带来显著的用户增长（约
+            3–5%，因为并非所 有用户都使用 WMS），但它极大地提高了需要 FEFO
+            功能的现有用户的满意度。.
+          </p>
+        </section>
+
+        <section id="my-contributions">
+          <h2>我参与的工作</h2>
+          <p>
+            我通过开展研究并为
+            PRD（产品需求文档）提供建议来支持产品经理。我的主要工作包括：
+          </p>
+          <ul>
+            <li>设计库存逻辑调整，使每个商品/库位可选择 FIFO 或 FEFO</li>
+            <li>规划产品到期前的多级提醒通知</li>
+            <li>绘制 FEFO 商品的入库流程（桌面端和 PDA）</li>
+            <li>更新库存显示，包含批次号和到期日期信息</li>
+            <li>优化出库流程（拣货单更新，PDA 集成）</li>
+            <li>处理 FEFO 商品的退货流程</li>
+            <li>到期管理工作流（例如：季度内到期商品的出库清单）</li>
+            <li>起草 NED（临近到期）报告方案</li>
+          </ul>
+          <p>我的研究与文档成为产品团队最终完善 PRD 和指导开发的重要参考。</p>
+        </section>
+        <section id="result">
+          <h2>结果</h2>
+          <p>
+            通过这些研究与洞察，我们成功梳理出 FEFO 如何无缝融入现有的 WMS
+            工作流程。这个项目让我积累了将用户需求转化为系统能力的实践经验，
+            并确保该功能真正支持仓库的日常运营。
+          </p>
+          <p><i>以下是部分规划流程与成果展示：</i></p>
+          <picture>
+            <div class="image-row">
+              <img
+                src="/../../assets/images/fefo-image1.png"
+                alt="Fefo plan outbound setting"
+              />
+              <img
+                src="/../../assets/images/fefo-image2.png"
+                alt="Fefo result outbound setting"
+              />
+            </div>
+            <div class="image-row">
+              <img
+                src="/../../assets/images/fefo-image3.png"
+                alt="Fefo plan picking list"
+              />
+              <img
+                src="/../../assets/images/fefo-image4.png"
+                alt="Fefo result picking list"
+              />
+            </div>
+            <div class="image-row">
+              <img
+                src="/../../assets/images/fefo-image6.png"
+                alt="Fefo plan pda"
+              />
+              <img
+                src="/../../assets/images/fefo-image5.png"
+                alt="Fefo result pda"
+              />
+            </div>
+          </picture>
+        </section>
+        <section id="link">
+          <h2>链接</h2>
+          <p>
+            如果您想进一步了解这两个系统的整合，可以在.
+            <a
+              href="https://ginee.com/id/help/penggunaan-metode-fefo-di-wms/"
+              target="_blank"
+            >
+              <i><b>这里</b></i></a
+            >查看。
+          </p>
+        </section>
+      </article>
+      <section id="comments">
+        <h2>评论</h2>
+
+        <form>
+          <input type="text" id="name" placeholder="您的姓名" required />
+          <br />
+
+          <input type="text" id="email" placeholder="您的邮箱" required />
+          <br />
+
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="40"
+            placeholder="留言"
+          ></textarea>
+          <br />
+          <button type="button">提交</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        2025 &copy 用
+        <span>
+          <a>
+            <img
+              src="/../../assets/icons/heart-icon.png"
+              alt="heart icon"
+              width="15"
+              height="15"
+            />
+          </a> </span
+        >制作 by Alethea Almas Fahrana
+      </p>
+    </footer>
+  </body>
+</html>
