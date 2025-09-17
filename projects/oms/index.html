@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>HSR Project-Alethea</title>
+    <title>OMS Project-Alethea</title>
     <meta
       name="description"
-      content="Section HSR Project of Alethea Personal Website"
+      content="Section OMS Project of Alethea Personal Website"
     />
     <meta name="author" content="Alethea Almas Fahrana" />
     <meta name="color-scheme" content="dark light" />
     <link
       rel="icon"
       type="image/png"
-      href="/assets/favicon/favicon-96x96.png"
+      href="../assets/favicon/favicon-96x96.png"
       sizes="96x96"
     />
     <link
@@ -48,7 +48,7 @@
 
         <div class="navbar-container">
           <ul>
-            <li><a href="">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="/about">About</a></li>
             <li><a href="/projects">Projects</a></li>
             <li><a href="/contact">Contact</a></li>
@@ -79,7 +79,7 @@
       <div class="published-section"></div>
       <div class="section-title">
         <h3>Published</h3>
-        <p>June, 2018</p>
+        <p>April, 2023</p>
         <a href="#comments" class="comments-link">View Comments</a>
       </div>
 
@@ -88,9 +88,12 @@
           <h3>Topic</h3>
         </div>
         <div class="topic-content">
-          Translation<br />
-          Chinese to Bahasa<br />
-          HSR
+          Order Management System<br />
+          Accounting System<br />
+          Integration<br />
+          ERP<br />
+          E-commerce<br />
+          UX Research<br />
         </div>
       </div>
 
@@ -109,6 +112,9 @@
             <a href="#result">Result</a>
           </li>
           <li>
+            <a href="#link">Link</a>
+          </li>
+          <li>
             <a href="#comments">Comments</a>
           </li>
         </ul>
@@ -117,48 +123,64 @@
 
     <main>
       <article>
-        <h1>
-          Translating High-Speed Railway Design Standards (Mandarin →
-          Indonesian)
-        </h1>
+        <h1>OMS-Accounting Integration Project</h1>
 
         <section id="overview">
           <h2>Overview</h2>
           <p>
-            Back in 2018, while interning in Beijing, I worked on a unique and
-            challenging project: translating a technical book on high-speed
-            railway design standards (高速铁路设计规范) from Mandarin into
-            Indonesian.
+            Integrating <b>Ginee</b> Order Management System (OMS) with
+            <b>Accurate Online</b>
+            (Accounting System) was one of my most exciting project. Many OMS
+            users are companies that need to manage their online sales from
+            various marketplaces. At the same time, they also need to
+            synchronize their sales records with their accounting system.
           </p>
           <p>
-            The book covered highly technical topics such as subgrade (路基),
-            bridges (桥涵), tunnels (隧道), and track systems (轨道) etc. At
-            that time, I didn’t use AI translation tools, which made the project
-            even more demanding—especially since we had to complete it in just
-            three months while balancing graduate school commitments.
+            Here’s how the process works: once an order is paid on the
+            marketplace, it is synced to the OMS and then OMS will pushed the
+            transaction record and stock update to the Accounting system. After
+            launching this integration, users were eager to explore more, and
+            the number of potential users increased by approximately
+            <b>20–30%</b>, as they wanted to use both systems seamless.
           </p>
         </section>
 
         <section id="my-contributions">
           <h2>My Contributions</h2>
+          <p>
+            I worked closely with the product team, starting with deep research
+            on user needs and studying how competitors approached similar
+            integrations. We soon discovered that the process was far more
+            complex than expected. It wasn’t just about syncing sales data. Both
+            system needed to record all business transactions, including:
+          </p>
           <ul>
-            <li>
-              Collaborated with a team of four translators to divide and
-              translate the book’s chapters.
-            </li>
-            <li>
-              Researched industry-specific railway engineering terminology to
-              ensure accurate and context-appropriate translation.
-            </li>
-            <li>
-              Participated in regular discussions with teammates to review
-              complex sections and maintain consistency in technical vocabulary.
-            </li>
-            <li>
-              Paid close attention to linguistic nuances to communicate highly
-              technical ideas clearly across languages.
-            </li>
+            <li>Mapping journal entries for each store</li>
+            <li>How products are created and purchased</li>
+            <li>How sales transactions are recorded</li>
+            <li>How to handling cancellations or returns</li>
+            <li>Recording receipts, including marketplace fees and taxes</li>
+            <li>And other related processes</li>
           </ul>
+          <p>
+            I explored the accounting system’s features and APIs, and
+            collaborated with their technical team to figure out the best way to
+            connect both systems.
+          </p>
+          <img
+            src="/assets/images/oms-image.png"
+            alt="Diagram of OMS-Accounting Integration Flow"
+            width="836"
+            height="478"
+          />
+          <p>
+            From there, I mapped out which features should be linked, created
+            user flows, and helped define the integration design. I also
+            prepared training materials to support onboarding and assisted in
+            handling issues post-launch. This project not only improved our
+            product ecosystem but also taught me how technical collaboration can
+            create real value for users.
+          </p>
         </section>
         <section id="result">
           <h2>Result</h2>
@@ -166,6 +188,19 @@
             After extensive effort, the integration between OMS and AOL was
             successfully launched, covering product, purchasing, and sales
             synchronization, with ongoing improvements planned.
+          </p>
+        </section>
+        <section id="link">
+          <h2>Link</h2>
+          <p>
+            If you want to learn more about the integration between both
+            systems, you can find it
+            <a
+              href="https://ginee.com/id/help/accounting-system-integration-accurate-online/"
+              target="_blank"
+            >
+              <i><b>here</b></i></a
+            >.
           </p>
         </section>
       </article>
