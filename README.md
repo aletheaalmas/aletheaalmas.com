@@ -53,8 +53,12 @@ The website will include the following features:
   - [Instagram](https://www.instagram.com/aletheaalmas/)
   - [Wechat](https://drive.google.com/file/d/18VAMxkSPLcEb05tXuDBR6vIacTqDZ3_n/view?usp=sharing)
 
-## Screenshoot
+## Screenshots
 
 ### Home
 
 ![home](assets/images/home-light-en.jpg)
+
+### Contact
+
+![contact](assets/images/contact-light-en.jpg)
