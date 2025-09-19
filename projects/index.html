@@ -30,12 +30,65 @@
     />
     <meta name="apple-mobile-web-app-title" content="Alethea" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
   </head>
 
   <body>
+       <header class="navbar">
+      <nav>
+        <div class="navbar-logo">
+          <a href="/" id="logo">
+            <img
+              src="/assets/images/logo-light.png"
+              alt="Logo of Alethea with initials AE in a modern and minimalist style "
+              width="50"
+              height="50"
+            />
+          </a>
+        </div>
+
+        <div class="navbar-container">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/contact">Contact</a></li>
+            <li>
+              <img
+                src="/assets/icons/dark_mode.png"
+                alt="Dark mode switcher icon"
+                width="30"
+                height="30"
+              />
+            </li>
+            <li>
+              <a href="/cn" target="_blank">
+                <img
+                  src="/assets/icons/language-picker.png"
+                  alt="Language switcher icon"
+                  width="30"
+                  height="30"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
     <h1>Some of my work</h1>
     <p>Some highlights of my journey so far. Feel free to explore!</p>
 
+    <div class="all-project">
     <section id="oms" class="project">
       <p><b>2023</b></p>
       <h2>OMS-Accounting Integration</h2>
@@ -43,21 +96,23 @@
         Development support about integrating order management system and
         accounting system.
       </p>
-      <a href="oms" class="read-more">Read more</a>
+      <div  class="button"> <a href="oms" class="read-more">Read more</a></div>
     </section>
 
     <section id="fefo" class="project">
       <p><b>2023</b></p>
       <h2>FEFO Implementation in WMS</h2>
       <p>Research the implementation of FEFO in Ginee WMS.</p>
-      <a href="fefo" class="read-more">Read more</a>
+       <div  class="button"> <a href="fefo" class="read-more">Read more</a></div>
     </section>
 
     <section id="hsr" class="project">
       <p><b>2018</b></p>
       <h2>Translating High-Speed Railway Design Standards</h2>
       <p>Translate technical books from Chinese to Bahasa Indonesia.</p>
-      <a href="hsr" class="read-more">Read more</a>
+       <div  class="button"> <a href="hsr" class="read-more">Read more</a></div>
     </section>
+    </div>
+    </main>
   </body>
 </html>
