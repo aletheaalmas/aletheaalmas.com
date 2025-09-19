@@ -1,21 +1,74 @@
 body {
-  font: poppins;
+  background-color: #fcfcfc;
+  margin: 0;
+  font: 14px "Inter", sans-serif;
 }
+
+header {
+  border-bottom: 2px solid black;
+  background-color: #fcfcfc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  height: 70px;
+}
+
+/*Navbar Section*/
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header Logo */
+.navbar-logo img {
+  height: 70px;
+  width: auto;
+}
+
+/* Header Menu */
+.navbar-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.navbar-container ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navbar-container ul li a:hover {
+  color: pink;
+}
+
+/* About Section */
 
 .about-container {
   display: flex;
   justify-content: center;
   align-items: flex-start; /* biar atasnya sejajar */
-  gap: 3rem; /* jarak antar kolom */
-  max-width: 1200px;
+  gap: 2rem; /* jarak antar kolom */
+  max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
 }
 
+/* my story */
 #my-story {
-  order: 1; /* lebih lebar */
-  width: 480px;
-  max-widht: 500px;
+  width: 580px;
+  max-width: 800px;
+  cursor: default;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
 }
 
 .button a {
@@ -27,60 +80,88 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 8px;
+  margin-bottom: 30px;
 }
 
-#profile {
-  order: 2; /* lebih sempit */
-  text-align: center;
+/* skills */
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* biar kalau kepanjangan turun ke bawah */
+  gap: 10px;
 }
 
-.profile-picture {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  border: 4px solid #070707;
+.skills ul li {
+  padding: 8px 16px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  cursor: default;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skills ul li:hover {
+  background-color: pink;
+}
+
+/* Profile */
+
+.profile-picture-container {
+  position: relative; /* parent untuk absolute positioning */
+  display: flex;
+  justify-content: center;
+  top: 40px;
 }
 
 .three-lines {
   position: absolute;
-  top: 30px; /* geser ke atas foto */
-  right: 37%;
+  left: 30%;
+  top: -25px;
   width: 40px;
 }
 
-/* Layout post-it */
+.profile-picture {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid black;
+}
+
+/* Post-it */
 .postit-card {
   position: relative;
-  width: 400px; /* area card */
-  height: 300px; /* tinggi card */
-  margin: 2rem auto;
-  overflow: hidden; /* biar sticky nggak keluar */
+  width: 400px;
+  height: 300px;
+  margin: 1rem;
 }
 
 .postit-list {
   list-style: none;
   padding: 0;
   margin: 0;
+  cursor: grab;
 }
 .postit-list .note {
   position: absolute;
   padding: 1rem;
   width: 60px;
   height: 50px;
-  font-size: 12px;
   text-align: center;
   font-weight: light;
   box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
   list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
 }
 
-/* Variasi warna & posisi */
-.note.n1 {
-  background: #ffe9e3;
-  top: 18px;
-  left: 18px;
-  transform: rotate(-8deg);
-}
+/* Post-it color & position */
+
 .note.n2 {
   background: #fff6b3;
   top: 48px;
@@ -104,4 +185,29 @@ body {
   top: 70px;
   left: 280px;
   transform: rotate(-6deg);
+}
+
+.note.n1 {
+  background: #ffe9e3;
+  top: 18px;
+  left: 18px;
+  transform: rotate(-8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* style icon lokasi */
+.note.n1 .postit-icon {
+  width: 20px;
+  height: auto;
+  margin-bottom: 4px;
+}
+
+/* teks di bawah icon */
+.note.n1 p {
+  margin: 0;
+  font-size: 11px;
+  color: #333;
 }
