@@ -26,6 +26,15 @@
     />
     <meta name="apple-mobile-web-app-title" content="Alethea" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
@@ -84,12 +93,14 @@
           <h3>Topic</h3>
         </div>
         <div class="topic-content">
-          Order Management System<br />
-          Accounting System<br />
-          Integration<br />
-          ERP<br />
-          E-commerce<br />
-          UX Research<br />
+          <ul>
+            <li>Order Management System</li>
+            <li>Accounting System</li>
+            <li>Integration</li>
+            <li>ERP</li>
+            <li>E-commerce</li>
+            <li> UX Research</li>
+          </ul>
         </div>
       </div>
 
@@ -121,7 +132,7 @@
       <article>
         <h1>OMS-Accounting Integration Project</h1>
 
-        <section id="overview">
+        <section id="overview" class="overview">
           <h2>Overview</h2>
           <p>
             Integrating <b>Ginee</b> Order Management System (OMS) with
@@ -218,7 +229,7 @@
             placeholder="Message"
           ></textarea>
           <br />
-          <button type="submit">Submit</button>
+           <div class="button"><p>Submit</p></div>
         </form>
       </section>
     </main>
