@@ -63,7 +63,8 @@ main {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* Contact Form */
@@ -119,6 +120,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
+  margin-top: 20%;
 }
 
 footer .heart-icon {
