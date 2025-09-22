@@ -13,7 +13,7 @@ header {
   height: 70px;
 }
 
-/*Navbar Section*/
+/* navbar section */
 nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,13 +23,13 @@ nav {
   align-items: center;
 }
 
-/* Header Logo */
+/* header logo */
 .navbar-logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 
-/* Header Menu */
+/* header menu */
 .navbar-container ul {
   list-style: none;
   display: flex;
@@ -47,7 +47,7 @@ nav {
   color: pink;
 }
 
-/* Main Content */
+/* main content */
 main {
   max-width: 1000px;
   margin: 1rem auto;

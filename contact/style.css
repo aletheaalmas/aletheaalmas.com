@@ -13,7 +13,7 @@ header {
   height: 70px;
 }
 
-/*Navbar Section*/
+/* navbar section */
 nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,13 +23,14 @@ nav {
   align-items: center;
 }
 
-/* Header Logo */
+/* header logo */
+
 .navbar-logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 
-/* Header Menu */
+/* header menu */
 .navbar-container ul {
   list-style: none;
   display: flex;
@@ -67,7 +68,7 @@ main {
   margin-bottom: 50px;
 }
 
-/* Contact Form */
+/* contact form */
 form {
   max-width: 659px;
   max-height: 300px;
@@ -113,7 +114,7 @@ form {
   padding: 10px;
 }
 
-/*footer*/
+/* footer */
 footer {
   position: fixed;
   left: 0;

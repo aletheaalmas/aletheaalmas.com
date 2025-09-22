@@ -3,7 +3,7 @@ body {
   margin: 0;
   font: 14px "Inter", sans-serif;
 }
-
+/* header */
 header {
   border-bottom: 2px solid black;
   background-color: #fcfcfc;
@@ -13,7 +13,6 @@ header {
   height: 70px;
 }
 
-/*Navbar Section*/
 nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,13 +22,11 @@ nav {
   align-items: center;
 }
 
-/* Header Logo */
 .navbar-logo img {
-  height: 70px;
+  height: 60px;
   width: auto;
 }
 
-/* Header Menu */
 .navbar-container ul {
   list-style: none;
   display: flex;
@@ -47,8 +44,7 @@ nav {
   color: pink;
 }
 
-
-/* Hero Section */
+/* hero */
 #hero {
   display: flex;
   justify-content: center;
