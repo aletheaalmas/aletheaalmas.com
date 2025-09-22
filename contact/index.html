@@ -134,18 +134,34 @@
         </a>
       </section>
 
-      <section id="contact-form">
-        <form>
-          <input type="text" id="name" placeholder="Your Name" required />
+      <section id="contact-form-section">
+        <form class="contact-form">
+          <label for="full-name">Full Name:</label>
+          <input
+            type="text"
+            id="full-name"
+            placeholder="Your Name"
+            required
+            class="item-top-left"
+          />
 
-          <input type="text" id="email" placeholder="Your Email" required />
+          <label for="email">Email:</label>
+          <input
+            type="text"
+            id="email"
+            placeholder="Your Email"
+            required
+            class="item-top-right"
+          />
 
+          <label for="message">Message:</label>
           <textarea
             id="message"
             name="message"
             rows="5"
             cols="40"
             placeholder="Message"
+            class="item-bottom"
           ></textarea>
 
           <button type="submit" class="button">Send Message</button>
