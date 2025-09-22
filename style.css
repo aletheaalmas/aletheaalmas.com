@@ -11,22 +11,6 @@ textarea {
 textarea {
   resize: none;
 }
-header {
-  border-bottom: 2px solid black;
-  background-color: #fcfcfc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-}
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 main {
   margin: 1rem auto;
   padding: 0 1rem;
@@ -43,6 +27,18 @@ p {
 }
 .site main {
   flex: 1;
+}
+.navbar {
+  border-bottom: 2px solid black;
+  background-color: #fcfcfc;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 10px 20px;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .navbar-logo img {
   height: 60px;
