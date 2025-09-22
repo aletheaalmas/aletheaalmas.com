@@ -3,7 +3,6 @@ body {
   margin: 0;
   font: 14px "Inter", sans-serif;
 }
-/* header */
 header {
   border-bottom: 2px solid black;
   background-color: #fcfcfc;
@@ -12,7 +11,6 @@ header {
   z-index: 1000;
   height: 70px;
 }
-
 nav {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,12 +19,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-
 .navbar-logo img {
   height: 60px;
   width: auto;
 }
-
 .navbar-container ul {
   list-style: none;
   display: flex;
@@ -34,31 +30,25 @@ nav {
   align-items: center;
   gap: 1.5rem;
 }
-
 .navbar-container ul li a {
   text-decoration: none;
   color: #000000;
 }
-
 .navbar-container ul li a:hover {
   color: pink;
 }
-
-/* hero */
 #hero {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* tinggi hampir full layar */
-  gap: 2rem; /* jarak antara gambar dan teks */
-  text-align: left; /* teks tetap rata kiri */
+  min-height: 80vh;
+  gap: 2rem;
+  text-align: left;
 }
-
 .hero-image img {
   width: 321px;
   height: 433px;
 }
-
 .hero-intro {
   max-width: 400px;
   cursor: default;
@@ -67,97 +57,31 @@ nav {
   font-size: 4rem;
   margin-bottom: 1rem;
 }
-
 .hero-intro p {
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
-
 .hero-intro .ale:hover {
   color: pink;
 }
-
-/* ===== Start of merged styles from /about/style.css ===== */
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-body {
-  background-color: #fcfcfc;
-  margin: 0;
-  font: 14px "Inter", sans-serif;
-}
-
-/* header */
-header {
-  border-bottom: 2px solid black;
-  background-color: #fcfcfc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-}
-
-/*Navbar Section*/
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-
-.navbar-container ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.navbar-container ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.navbar-container ul li a:hover {
-  color: pink;
-}
-
-/* about section */
-
 .about-container {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* biar atasnya sejajar */
-  gap: 2rem; /* jarak antar kolom */
+  align-items: flex-start;
+  gap: 2rem;
   max-width: 1000px;
   margin: 0 auto;
   padding: 2rem;
 }
-
-/* my story */
 #my-story {
   width: 580px;
   max-width: 800px;
   cursor: default;
 }
-
 p {
   line-height: 1.6;
   margin-bottom: 1rem;
 }
-
 .button a {
   background-color: black;
   color: white;
@@ -169,16 +93,13 @@ p {
   border-radius: 8px;
   margin-bottom: 30px;
 }
-
-/* skills */
 .skills ul {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* biar kalau kepanjangan turun ke bawah */
+  flex-wrap: wrap;
   gap: 10px;
 }
-
 .skills ul li {
   padding: 8px 16px;
   border: 2px solid #333;
@@ -189,27 +110,21 @@ p {
   cursor: default;
   transition: background-color 0.3s, color 0.3s;
 }
-
 .skills ul li:hover {
   background-color: pink;
 }
-
-/* profile section*/
-
 .profile-picture-container {
-  position: relative; /* parent untuk absolute positioning */
+  position: relative;
   display: flex;
   justify-content: center;
   top: 40px;
 }
-
 .three-lines {
   position: absolute;
   left: 30%;
   top: -25px;
   width: 40px;
 }
-
 .profile-picture {
   display: flex;
   width: 150px;
@@ -218,15 +133,12 @@ p {
   background-color: #fcfcfc;
   border: 4px solid black;
 }
-
-/* post-it */
 .postit-card {
   position: relative;
   width: 400px;
   height: 300px;
   margin: 1rem;
 }
-
 .postit-list {
   list-style: none;
   padding: 0;
@@ -247,9 +159,6 @@ p {
   justify-content: center;
   font-size: 11px;
 }
-
-/* post-it color & position */
-
 .note.n2 {
   background: #fff6b3;
   top: 48px;
@@ -274,7 +183,6 @@ p {
   left: 280px;
   transform: rotate(-6deg);
 }
-
 .note.n1 {
   background: #ffe9e3;
   top: 18px;
@@ -285,84 +193,27 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-/* location icon */
 .note.n1 .postit-icon {
   width: 20px;
   height: auto;
   margin-bottom: 4px;
 }
-
 .note.n1 p {
   margin: 0;
   font-size: 11px;
   color: #333;
 }
-/* ===== End of merged styles from /about/style.css ===== */
-
-/* ===== Start of merged styles from /contact/style.css ===== */
-body {
-  background-color: #fcfcfc;
-  margin: 0;
-  font: 14px "Inter", sans-serif;
-}
-
-header {
-  border-bottom: 2px solid black;
-  background-color: #fcfcfc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-}
-
-/* navbar section */
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* header logo */
-
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-
-/* header menu */
-.navbar-container ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.navbar-container ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.navbar-container ul li a:hover {
-  color: pink;
-}
-
+/* generic main layout */
 main {
   max-width: 1000px;
-  margin: 2rem auto;
+  margin: 1rem auto;
 }
-
 .card {
   max-width: 800px;
   margin: 2rem auto;
   padding: 1rem;
   text-align: center;
 }
-
 .social-media {
   display: flex;
   justify-content: center;
@@ -370,8 +221,6 @@ main {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-
-/* contact form */
 form {
   max-width: 659px;
   max-height: 300px;
@@ -382,7 +231,6 @@ form {
   row-gap: 2px;
   column-gap: 20px;
 }
-
 form input,
 form textarea,
 form {
@@ -390,22 +238,18 @@ form {
   border-radius: 20px;
   font-size: 12px;
 }
-
 #name {
   grid-column: 1;
   grid-row: 1;
 }
-
 #email {
   grid-column: 2;
   grid-row: 1;
 }
-
 #message {
   grid-column: 1/3;
   border: 2px solid black;
 }
-
 .button {
   grid-column: 1/3;
   height: 20px;
@@ -416,8 +260,6 @@ form {
   text-align: center;
   padding: 10px;
 }
-
-/* footer */
 footer {
   position: fixed;
   left: 0;
@@ -426,81 +268,21 @@ footer {
   text-align: center;
   margin-top: 20%;
 }
-
 footer .heart-icon {
-  vertical-align: middle; /* sejajarkan dengan teks */
-  margin: 0 4px; /* jarak kiri-kanan kecil */
+  vertical-align: middle;
+  margin: 0 4px;
 }
-
 footer .author {
-  font-weight: bold; /* tebalkan nama */
-  color: #000; /* biar lebih kontras */
+  font-weight: bold;
+  color: #000;
 }
-/* ===== End of merged styles from /contact/style.css ===== */
-
-/* ===== Start of merged styles from /projects/style.css ===== */
-body {
-  background-color: #fcfcfc;
-  margin: 0;
-  font: 14px "Inter", sans-serif;
-}
-
-header {
-  border-bottom: 2px solid black;
-  background-color: #fcfcfc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-}
-
-/* navbar section */
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* header logo */
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-
-/* header menu */
-.navbar-container ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.navbar-container ul li a {
-  text-decoration: none;
-  color: #000000;
-}
-
-.navbar-container ul li a:hover {
-  color: pink;
-}
-
-/* main content */
-main {
-  max-width: 1000px;
-  margin: 1rem auto;
-}
-
+/* (deduped) generic main already defined above */
 .all-project {
   width: 990px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .project {
   border: 2px solid rgb(6, 6, 6);
   border-radius: 12px;
@@ -510,74 +292,13 @@ main {
   margin: 20px;
   padding: 0.5rem 1rem;
 }
-
-.button a {
-  background-color: black;
-  color: white;
-  padding: 12px 12px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
-  border-radius: 8px;
-  margin-bottom: 30px;
-}
-/* ===== End of merged styles from /projects/style.css ===== */
-
-/* ===== Start of merged styles from /projects/oms/style.css ===== */
-body {
-  background-color: #fcfcfc;
-  font: 14px "Inter", sans-serif;
-}
-
-header {
-  border-bottom: 2px solid black;
-  background-color: #fcfcfc;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  height: 70px;
-  width: 100%;
-}
-
-/* navbar section */
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  font-size: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-/* header logo */
-.navbar-logo img {
-  height: 60px;
-  width: auto;
-}
-
-/* header menu */
-.navbar-container ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-.navbar-container ul li a:hover {
-  color: pink;
-}
-
 a {
   text-decoration: none;
   color: #000000;
 }
-
-/* sidebar */
 .sidebar {
   position: fixed;
-  top: 70px; /* sesuaikan dengan tinggi navbar */
+  top: 70px;
   right: 0;
   width: 250px;
   height: calc(100vh - 70px);
@@ -585,32 +306,26 @@ a {
   padding: 0;
   box-sizing: border-box;
 }
-
-/* style setiap section */
 .sidebar > div {
   border-bottom: 2px solid;
   padding: 10px;
 }
-
 .published-section {
   padding-bottom: 20px;
 }
 .comments-link {
   font-style: italic;
 }
-
 .comments-link:hover {
   color: pink;
 }
-
 .topic-section ul {
   list-style: none;
   padding: 0;
   display: flex;
-  flex-wrap: wrap; /* biar kalau kepanjangan turun ke bawah */
+  flex-wrap: wrap;
   gap: 10px;
 }
-
 .topic-section ul li {
   padding: 8px 16px;
   border: 2px solid;
@@ -618,34 +333,29 @@ a {
   font-size: 12px;
   cursor: default;
 }
-
 .topic-content ul li:hover {
   background-color: pink;
 }
-
 .content-list {
   list-style: none;
   text-decoration: none;
   padding: 5px;
   line-height: 2;
 }
-
 .content-list :hover {
   background-color: pink;
 }
-
-/* main content */
-main {
+/* OMS page-only layout: applies when a sidebar precedes main */
+.sidebar + main {
   display: flex;
   flex-wrap: wrap;
   max-width: 800px;
   margin: 40px 48px 20px 300px;
 }
-article section {
+.sidebar + main article section {
   margin-bottom: 60px;
 }
-
-.overview {
+.sidebar + main .overview {
   width: 796;
   height: 402;
   border: 2px solid black;
@@ -653,15 +363,9 @@ article section {
   padding: 10px 20px 10px 20px;
   margin-top: 40px;
 }
-.overview h3 {
+.sidebar + main .overview h3 {
   font-style: italic;
 }
-
-p {
-  line-height: 1.6;
-  margin-bottom: 1rem;
-}
-
 .ginee {
   font-weight: bold;
   color: #762eec;
@@ -670,68 +374,3 @@ p {
   font-weight: bold;
   color: #e52348;
 }
-form {
-  max-width: 659px;
-  max-height: 300px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 50px auto;
-  margin-top: 5px;
-  row-gap: 2px;
-  column-gap: 20px;
-}
-
-form input,
-form textarea,
-form {
-  padding: 10px;
-  border-radius: 20px;
-  font-size: 12px;
-}
-
-#name {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-#email {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-#message {
-  grid-column: 1/3;
-  border: 2px solid black;
-}
-
-.button {
-  grid-column: 1/3;
-  height: 20px;
-  border-radius: 20px;
-  cursor: pointer;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 10px;
-}
-
-/* footer */
-footer {
-  position: bottom;
-  margin-top: 20%;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
-footer .heart-icon {
-  vertical-align: middle; /* sejajarkan dengan teks */
-  margin: 0 4px; /* jarak kiri-kanan kecil */
-}
-
-footer .author {
-  font-weight: bold; /* tebalkan nama */
-  color: #000; /* biar lebih kontras */
-}
-/* ===== End of merged styles from /projects/oms/style.css ===== */
