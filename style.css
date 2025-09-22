@@ -3,9 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-* {
-  margin: 0;
-}
 body {
   background-color: #fcfcfc;
   margin: 0;
@@ -31,6 +28,9 @@ p {
 a {
   text-decoration: none;
   color: #000000;
+}
+img {
+  object-fit: contain;
 }
 .site {
   display: flex;
@@ -311,17 +311,27 @@ footer .author {
   gap: 10px;
   align-items: flex-start;
 }
+.project h2 {
+  margin: 0;
+}
 .project p {
+  margin: 0;
   flex: 1;
 }
+.layout-with-sidebar {
+  display: flex;
+  gap: 1rem;
+}
+.layout-with-sidebar main {
+  max-width: 720px;
+}
+.layout-with-sidebar article img {
+  max-width: 720px;
+}
 .sidebar {
-  position: fixed;
-  top: 70px;
-  right: 0;
   width: 250px;
-  height: calc(100vh - 70px);
   border-left: 2px solid black;
-  padding: 0;
+  padding: 1rem;
 }
 .sidebar > div {
   border-bottom: 2px solid;
