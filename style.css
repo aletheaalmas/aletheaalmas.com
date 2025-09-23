@@ -88,15 +88,15 @@ img {
 }
 
 /* footer */
-footer {
+.footer {
   width: 100%;
   text-align: center;
 }
-footer .heart-icon {
+.footer .heart-icon {
   vertical-align: middle;
   margin: 0 4px;
 }
-footer .author {
+.footer .author {
   font-weight: bold;
   color: #000;
 }
@@ -323,9 +323,8 @@ footer .author {
 
 .project p {
   flex: 1;
-  margin:0;
+  margin: 0;
 }
-
 
 .card {
   max-width: 800px;
