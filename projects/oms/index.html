@@ -35,7 +35,7 @@
   </head>
 
   <body class="site">
-   <header class="navbar">
+    <header class="navbar">
       <a href="/" id="logo" class="navbar-logo">
         <img
           src="/assets/images/logo-light.png"
@@ -73,155 +73,157 @@
       </nav>
     </header>
 
-    <aside class="sidebar">
-      <div class="published-section">
-        <h3>Published</h3>
-        <p>April, 2023</p>
-        <a href="#comments" class="comments-link"><p>View Comments</p></a>
-      </div>
+    <div class="layout-with-sidebar">
+      <main>
+        <article>
+          <h1>OMS-Accounting Integration Project</h1>
+          <section id="overview" class="overview">
+            <h3>Overview</h3>
+            <p>
+              Integrating <span class="ginee">Ginee</span> Order Management
+              System (OMS) with
+              <span class="accurate">Accurate Online</span>
+              (Accounting System) was one of my most exciting project. Many OMS
+              users are companies that need to manage their online sales from
+              various marketplaces. At the same time, they also need to
+              synchronize their sales records with their accounting system.
+            </p>
+            <p>
+              Here’s how the process works: once an order is paid on the
+              marketplace, it is synced to the OMS and then OMS will pushed the
+              transaction record and stock update to the Accounting system.
+              After launching this integration, users were eager to explore
+              more, and the number of potential users increased by approximately
+              <b>20–30%</b>, as they wanted to use both systems seamlessly.
+            </p>
+          </section>
 
-      <div id="topics" class="badges">
-        <h3>Topics</h3>
-        <div class="topic-content">
-          <ul>
-            <li>Order Management System</li>
-            <li>Accounting System</li>
-            <li>Integration</li>
-            <li>ERP</li>
-            <li>E-commerce</li>
-            <li>UX Research</li>
+          <section id="my-contributions">
+            <h2>My Contributions</h2>
+            <p>
+              I worked closely with the product team, starting with deep
+              research on user needs and studying how competitors approached
+              similar integrations. We soon discovered that the process was far
+              more complex than expected. It wasn’t just about syncing sales
+              data. Both system needed to record all business transactions,
+              including:
+            </p>
+            <ul>
+              <li>Mapping journal entries for each store</li>
+              <li>How products are created and purchased</li>
+              <li>How sales transactions are recorded</li>
+              <li>How to handling cancellations or returns</li>
+              <li>Recording receipts, including marketplace fees and taxes</li>
+              <li>And other related processes</li>
+            </ul>
+            <p>
+              I explored the accounting system’s features and APIs, and
+              collaborated with their technical team to figure out the best way
+              to connect both systems.
+            </p>
+            <img
+              src="/assets/images/oms-image.png"
+              alt="Diagram of OMS-Accounting Integration Flow"
+              width="836"
+              height="478"
+            />
+            <p>
+              From there, I mapped out which features should be linked, created
+              user flows, and helped define the integration design. I also
+              prepared training materials to support onboarding and assisted in
+              handling issues post-launch. This project not only improved our
+              product ecosystem but also taught me how technical collaboration
+              can create real value for users.
+            </p>
+          </section>
+          <section id="result">
+            <h2>Result</h2>
+            <p>
+              After extensive effort, the integration between OMS and AOL was
+              successfully launched, covering product, purchasing, and sales
+              synchronization, with ongoing improvements planned.
+            </p>
+          </section>
+          <section id="link">
+            <h2>Link</h2>
+            <p>
+              If you want to learn more about the integration between both
+              systems, you can find it
+              <a
+                href="https://ginee.com/id/help/accounting-system-integration-accurate-online/"
+                target="_blank"
+              >
+                <i><b>here</b></i></a
+              >.
+            </p>
+          </section>
+        </article>
+
+        <section id="comments">
+          <h2>Comments</h2>
+
+          <form>
+            <input type="text" id="name" placeholder="Your Name" required />
+            <br />
+
+            <input type="text" id="email" placeholder="Your Email" required />
+            <br />
+
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              placeholder="Message"
+            ></textarea>
+            <br />
+            <div class="button"><p>Submit</p></div>
+          </form>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <div class="published-section">
+          <h3>Published</h3>
+          <p>April, 2023</p>
+          <a href="#comments" class="comments-link"><p>View Comments</p></a>
+        </div>
+
+        <div id="topics" class="badges">
+          <h3>Topics</h3>
+          <div class="topic-content">
+            <ul>
+              <li>Order Management System</li>
+              <li>Accounting System</li>
+              <li>Integration</li>
+              <li>ERP</li>
+              <li>E-commerce</li>
+              <li>UX Research</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-section">
+          <h3>Content</h3>
+          <ul class="content-list">
+            <li>
+              <a href="#overview">Overview</a>
+            </li>
+            <li>
+              <a href="#my-contributions">My Contributions</a>
+            </li>
+            <li>
+              <a href="#result">Result</a>
+            </li>
+            <li>
+              <a href="#link">Link</a>
+            </li>
+            <li>
+              <a href="#comments">Comments</a>
+            </li>
           </ul>
         </div>
-      </div>
-
-      <div class="content-section">
-        <h3>Content</h3>
-        <ul class="content-list">
-          <li>
-            <a href="#overview">Overview</a>
-          </li>
-          <li>
-            <a href="#my-contributions">My Contributions</a>
-          </li>
-          <li>
-            <a href="#result">Result</a>
-          </li>
-          <li>
-            <a href="#link">Link</a>
-          </li>
-          <li>
-            <a href="#comments">Comments</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <main>
-      <article>
-        <h1>OMS-Accounting Integration Project</h1>
-
-        <section id="overview" class="overview">
-          <h3>Overview</h3>
-          <p>
-            Integrating <span class="ginee">Ginee</span> Order Management System
-            (OMS) with
-            <span class="accurate">Accurate Online</span>
-            (Accounting System) was one of my most exciting project. Many OMS
-            users are companies that need to manage their online sales from
-            various marketplaces. At the same time, they also need to
-            synchronize their sales records with their accounting system.
-          </p>
-          <p>
-            Here’s how the process works: once an order is paid on the
-            marketplace, it is synced to the OMS and then OMS will pushed the
-            transaction record and stock update to the Accounting system. After
-            launching this integration, users were eager to explore more, and
-            the number of potential users increased by approximately
-            <b>20–30%</b>, as they wanted to use both systems seamlessly.
-          </p>
-        </section>
-
-        <section id="my-contributions">
-          <h2>My Contributions</h2>
-          <p>
-            I worked closely with the product team, starting with deep research
-            on user needs and studying how competitors approached similar
-            integrations. We soon discovered that the process was far more
-            complex than expected. It wasn’t just about syncing sales data. Both
-            system needed to record all business transactions, including:
-          </p>
-          <ul>
-            <li>Mapping journal entries for each store</li>
-            <li>How products are created and purchased</li>
-            <li>How sales transactions are recorded</li>
-            <li>How to handling cancellations or returns</li>
-            <li>Recording receipts, including marketplace fees and taxes</li>
-            <li>And other related processes</li>
-          </ul>
-          <p>
-            I explored the accounting system’s features and APIs, and
-            collaborated with their technical team to figure out the best way to
-            connect both systems.
-          </p>
-          <img
-            src="/assets/images/oms-image.png"
-            alt="Diagram of OMS-Accounting Integration Flow"
-            width="836"
-            height="478"
-          />
-          <p>
-            From there, I mapped out which features should be linked, created
-            user flows, and helped define the integration design. I also
-            prepared training materials to support onboarding and assisted in
-            handling issues post-launch. This project not only improved our
-            product ecosystem but also taught me how technical collaboration can
-            create real value for users.
-          </p>
-        </section>
-        <section id="result">
-          <h2>Result</h2>
-          <p>
-            After extensive effort, the integration between OMS and AOL was
-            successfully launched, covering product, purchasing, and sales
-            synchronization, with ongoing improvements planned.
-          </p>
-        </section>
-        <section id="link">
-          <h2>Link</h2>
-          <p>
-            If you want to learn more about the integration between both
-            systems, you can find it
-            <a
-              href="https://ginee.com/id/help/accounting-system-integration-accurate-online/"
-              target="_blank"
-            >
-              <i><b>here</b></i></a
-            >.
-          </p>
-        </section>
-      </article>
-      <section id="comments">
-        <h2>Comments</h2>
-
-        <form>
-          <input type="text" id="name" placeholder="Your Name" required />
-          <br />
-
-          <input type="text" id="email" placeholder="Your Email" required />
-          <br />
-
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            cols="40"
-            placeholder="Message"
-          ></textarea>
-          <br />
-          <div class="button"><p>Submit</p></div>
-        </form>
-      </section>
-    </main>
+      </aside>
+    </div>
 
     <footer>
       <p>

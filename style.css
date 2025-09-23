@@ -3,9 +3,6 @@
 *::after {
   box-sizing: border-box;
 }
-* {
-  margin: 0;
-}
 
 body {
   background-color: #fcfcfc;
@@ -53,6 +50,10 @@ p {
 a {
   text-decoration: none;
   color: #000000;
+}
+
+img {
+  object-fit: contain;
 }
 
 .site {
@@ -316,9 +317,15 @@ footer .author {
   gap: 10px;
   align-items: flex-start;
 }
+.project h2 {
+  margin: 0;
+}
+
 .project p {
   flex: 1;
+  margin:0;
 }
+
 
 .card {
   max-width: 800px;
@@ -335,15 +342,22 @@ footer .author {
   margin-bottom: 50px;
 }
 
+.layout-with-sidebar {
+  display: flex;
+  gap: 1rem;
+}
+.layout-with-sidebar main {
+  max-width: 720px;
+}
+.layout-with-sidebar article img {
+  max-width: 720px;
+}
+
 /* sidebar */
 .sidebar {
-  position: fixed;
-  top: 70px; /* sesuaikan dengan tinggi navbar */
-  right: 0;
   width: 250px;
-  height: calc(100vh - 70px);
   border-left: 2px solid black;
-  padding: 0;
+  padding: 1rem;
 }
 
 /* style setiap section */
