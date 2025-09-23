@@ -76,3 +76,435 @@ nav {
 .hero-intro .ale:hover {
   color: pink;
 }
+
+.navbar-logo img {
+  height: 60px;
+  width: auto;
+}
+.navbar-logo img {
+  height: 60px;
+  width: auto;
+}
+
+/* about section */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* biar atasnya sejajar */
+  gap: 2rem; /* jarak antar kolom */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* my story */
+#my-story {
+  width: 580px;
+  max-width: 800px;
+  cursor: default;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.button a {
+  background-color: black;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+/* skills */
+.skills ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* biar kalau kepanjangan turun ke bawah */
+  gap: 10px;
+}
+
+.skills ul li {
+  padding: 8px 16px;
+  border: 2px solid #333;
+  border-radius: 50px;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+  cursor: default;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.skills ul li:hover {
+  background-color: pink;
+}
+
+/* profile section*/
+
+.profile-picture-container {
+  position: relative; /* parent untuk absolute positioning */
+  display: flex;
+  justify-content: center;
+  top: 40px;
+}
+
+.three-lines {
+  position: absolute;
+  left: 30%;
+  top: -25px;
+  width: 40px;
+}
+
+.profile-picture {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #fcfcfc;
+  border: 4px solid black;
+}
+
+/* post-it */
+.postit-card {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  margin: 1rem;
+}
+
+.postit-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  cursor: grab;
+}
+.postit-list .note {
+  position: absolute;
+  padding: 1rem;
+  width: 60px;
+  height: 50px;
+  text-align: center;
+  font-weight: light;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+/* post-it color & position */
+
+.note.n2 {
+  background: #fff6b3;
+  top: 48px;
+  left: 150px;
+  transform: rotate(6deg);
+}
+.note.n3 {
+  background: #e6f0ff;
+  top: 110px;
+  left: 80px;
+  transform: rotate(-4deg);
+}
+.note.n4 {
+  background: #f5e6ff;
+  top: 160px;
+  left: 220px;
+  transform: rotate(8deg);
+}
+.note.n5 {
+  background: #e0ffe0;
+  top: 70px;
+  left: 280px;
+  transform: rotate(-6deg);
+}
+
+.note.n1 {
+  background: #ffe9e3;
+  top: 18px;
+  left: 18px;
+  transform: rotate(-8deg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* location icon */
+.note.n1 .postit-icon {
+  width: 20px;
+  height: auto;
+  margin-bottom: 4px;
+}
+
+.note.n1 p {
+  margin: 0;
+  font-size: 11px;
+  color: #333;
+}
+
+/* projects section */
+
+.projects-container {
+  max-width: 1000px;
+  margin: 1rem auto;
+}
+
+.all-project {
+  width: 990px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  border: 2px solid rgb(6, 6, 6);
+  border-radius: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  height: 230px;
+  margin: 20px;
+  padding: 0.5rem 1rem;
+}
+
+.button a {
+  background-color: black;
+  color: white;
+  padding: 12px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.card {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+/* contact form */
+form {
+  max-width: 659px;
+  max-height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px auto;
+  margin-top: 5px;
+  row-gap: 2px;
+  column-gap: 20px;
+}
+
+form input,
+form textarea,
+form {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+#name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#email {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#message {
+  grid-column: 1/3;
+  border: 2px solid black;
+}
+
+.button {
+  grid-column: 1/3;
+  height: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+footer .heart-icon {
+  vertical-align: middle; /* sejajarkan dengan teks */
+  margin: 0 4px; /* jarak kiri-kanan kecil */
+}
+
+footer .author {
+  font-weight: bold; /* tebalkan nama */
+  color: #000; /* biar lebih kontras */
+}
+
+/* sidebar */
+.sidebar {
+  position: fixed;
+  top: 70px; /* sesuaikan dengan tinggi navbar */
+  right: 0;
+  width: 250px;
+  height: calc(100vh - 70px);
+  border-left: 2px solid black;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* style setiap section */
+.sidebar > div {
+  border-bottom: 2px solid;
+  padding: 10px;
+}
+
+.published-section {
+  padding-bottom: 20px;
+}
+.comments-link {
+  font-style: italic;
+}
+
+.comments-link:hover {
+  color: pink;
+}
+
+.topic-section ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* biar kalau kepanjangan turun ke bawah */
+  gap: 10px;
+}
+
+.topic-section ul li {
+  padding: 8px 16px;
+  border: 2px solid;
+  border-radius: 50px;
+  font-size: 12px;
+  cursor: default;
+}
+
+.topic-content ul li:hover {
+  background-color: pink;
+}
+
+.content-list {
+  list-style: none;
+  text-decoration: none;
+  padding: 5px;
+  line-height: 2;
+}
+
+.content-list :hover {
+  background-color: pink;
+}
+
+/* main content */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 40px 48px 20px 300px;
+}
+article section {
+  margin-bottom: 60px;
+}
+
+.overview {
+  width: 796;
+  height: 402;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 40px;
+}
+.overview h3 {
+  font-style: italic;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.ginee {
+  font-weight: bold;
+  color: #762eec;
+}
+.accurate {
+  font-weight: bold;
+  color: #e52348;
+}
+form {
+  max-width: 659px;
+  max-height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px auto;
+  margin-top: 5px;
+  row-gap: 2px;
+  column-gap: 20px;
+}
+
+form input,
+form textarea,
+form {
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+#name {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+#email {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#message {
+  grid-column: 1/3;
+  border: 2px solid black;
+}
+
+.button {
+  grid-column: 1/3;
+  height: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
