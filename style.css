@@ -14,17 +14,13 @@ textarea {
 }
 
 /* header */
-header {
+.navbar {
   border-bottom: 2px solid black;
+  background-color: #fcfcfc;
   position: sticky;
   top: 0;
   z-index: 1000;
-  height: 70px;
-}
-
-nav {
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 10px 20px;
   font-size: 16px;
   display: flex;
   justify-content: space-between;
