@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      <title>Contact - Alethea Almas Fahrana</title>
+    <title>Contact - Alethea Almas Fahrana</title>
     <meta name="description" content="How to contact Alethea" />
     <meta name="author" content="Alethea Almas Fahrana" />
     <!-- <meta name="color-scheme" content="dark light" /> -->
@@ -129,23 +129,39 @@
           </a>
         </section>
 
-        <form class="container">
-          <input type="text" id="name" placeholder="Your Name" required />
-          <br />
+        <section id="contact-form-section">
+          <form class="contact-form">
+            <label for="full-name">Full Name:</label>
+            <input
+              type="text"
+              id="full-name"
+              placeholder="Your Name"
+              required
+              class="item-top-left"
+            />
 
-          <input type="text" id="email" placeholder="Your Email" required />
-          <br />
+            <label for="email">Email:</label>
+            <input
+              type="text"
+              id="email"
+              placeholder="Your Email"
+              required
+              class="item-top-right"
+            />
 
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            cols="40"
-            placeholder="Message"
-          ></textarea>
-          <br />
-          <div class="button"><p>Send</p></div>
-        </form>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="5"
+              cols="40"
+              placeholder="Message"
+              class="item-bottom"
+            ></textarea>
+
+            <button type="submit" class="button">Send Message</button>
+          </form>
+        </section>
       </div>
     </main>
 
