@@ -32,8 +32,7 @@ nav {
 }
 
 main {
-  display: flex;
-  flex-wrap: wrap;
+  padding: 0 1rem;
   max-width: 1000px;
   margin: 1rem auto;
 }
@@ -44,6 +43,15 @@ article section {
 p {
   line-height: 1.6;
   margin-bottom: 1rem;
+}
+
+.site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.site main {
+  flex: 1;
 }
 
 .navbar-logo img {
@@ -72,7 +80,6 @@ p {
 footer {
   width: 100%;
   text-align: center;
-  margin-top: 20%;
 }
 footer .heart-icon {
   vertical-align: middle;
@@ -379,8 +386,6 @@ footer .author {
   margin: 50px auto;
   margin-top: 5px;
   gap: 10px;
-  max-width: 660px;
-  max-height: 300px;
 }
 
 .contact-form input,
