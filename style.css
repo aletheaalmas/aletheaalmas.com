@@ -6,7 +6,6 @@ body {
 /* header */
 header {
   border-bottom: 2px solid black;
-  background-color: #fcfcfc;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -42,6 +41,28 @@ nav {
 
 .navbar-container ul li a:hover {
   color: pink;
+}
+
+/* footer */
+footer {
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20%;
+}
+
+footer .heart-icon {
+  vertical-align: middle; /* sejajarkan dengan teks */
+  margin: 0 4px; /* jarak kiri-kanan kecil */
+}
+
+footer .author {
+  font-weight: bold; /* tebalkan nama */
+  color: #000; /* biar lebih kontras */
 }
 
 /* hero */
@@ -348,25 +369,6 @@ form {
   padding: 10px;
 }
 
-/* footer */
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  margin-top: 20%;
-}
-
-footer .heart-icon {
-  vertical-align: middle; /* sejajarkan dengan teks */
-  margin: 0 4px; /* jarak kiri-kanan kecil */
-}
-
-footer .author {
-  font-weight: bold; /* tebalkan nama */
-  color: #000; /* biar lebih kontras */
-}
 
 /* sidebar */
 .sidebar {
