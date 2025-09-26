@@ -4,10 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Projects - Alethea Almas Fahrana</title>
-    <meta name="description" content="Alethea's projects" />
+    <title>Alethea Almas Fahrana</title>
+    <meta
+      name="description"
+      content="Personal website of Alethea Almas Fahrana"
+    />
     <meta name="author" content="Alethea Almas Fahrana" />
     <!-- <meta name="color-scheme" content="dark light" /> -->
+
     <link
       rel="icon"
       type="image/png"
@@ -21,7 +25,6 @@
       sizes="180x180"
       href="/assets/favicon/apple-touch-icon.png"
     />
-
     <meta name="apple-mobile-web-app-title" content="Alethea" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
 
@@ -32,11 +35,13 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
 
-  <body class="site">
-    <header class="navbar">
+  <body class="flex flex-col min-h-screen">
+    <header
+      class="flex justify-between items-center border-b-2 bg-gray-100 sticky z-5 py-2 px-6"
+    >
       <a href="/" id="logo" class="navbar-logo">
         <img
           src="/assets/images/logo-light.png"
@@ -47,7 +52,7 @@
       </a>
 
       <nav class="navbar-container">
-        <ul>
+        <ul class="flex gap-4">
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
@@ -55,41 +60,36 @@
         </ul>
       </nav>
     </header>
-    <main class="projects-container">
-      <h1>Some of my work</h1>
-      <p>Some highlights of my journey so far. Feel free to explore!</p>
 
-      <div class="all-projects">
-        <section id="oms" class="project">
-          <b>2023</b>
-          <h2>OMS-Accounting Integration</h2>
-          <p>
-            Development support about integrating order management system and
-            accounting system.
-          </p>
-          <a href="/projects/oms" class="button">Read more</a>
-        </section>
+    <main class="flex-[1]">
+      <section id="hero" class="hero">
+        <div class="hero-image">
+          <img
+            src="/assets/images/avatar.svg"
+            alt="Smiling person with hijab in a minimalist style, friendly and simple light background"
+            width="180"
+            height="243"
+          />
+        </div>
 
-        <section id="fefo" class="project">
-          <b>2023</b>
-          <h2>FEFO Implementation in WMS</h2>
-          <p>Research the implementation of FEFO in Ginee WMS.</p>
-          <a href="/projects/fefo/" class="button">Read more</a>
-        </section>
-
-        <section id="hsr" class="project">
-          <b>2018</b>
-          <h2>Translating High-Speed Railway Design Standards</h2>
-          <p>Translate technical books from Chinese to Bahasa Indonesia.</p>
-          <a href="/projects/hsr" class="button">Read more</a>
-        </section>
-      </div>
+        <div class="hero-intro">
+          <h1 class="animate__animated animate__heartBeat">
+            Hello! I'm <span class="text-pink-500">Ale</span>
+          </h1>
+          <p>Ready to build and grow with you :)</p>
+        </div>
+      </section>
     </main>
-    <footer class="footer">
-      <p>
+
+    <footer class="mt-20 w-full p-4">
+      <p class="text-center text-lg">
         <span>2025 &copy; Made with</span>
         <a>
-          <img src="/assets/icons/heart-icon.png" alt="heart icon" />
+          <img
+            class="inline"
+            src="/assets/icons/heart-icon.png"
+            alt="heart icon"
+          />
         </a>
         <span>by Alethea Almas Fahrana</span>
       </p>
