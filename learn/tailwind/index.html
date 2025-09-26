@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Alethea Almas Fahrana</title>
+    <meta
+      name="description"
+      content="Personal website of Alethea Almas Fahrana"
+    />
+    <meta name="author" content="Alethea Almas Fahrana" />
+    <!-- <meta name="color-scheme" content="dark light" /> -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      href="/assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Alethea" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mynerve&family=Playpen+Sans:wght@100..800&family=Sniglet:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="flex flex-col min-h-screen">
+    <header
+      class="flex justify-between items-center border-b-2 bg-gray-100 sticky z-5 py-2 px-6"
+    >
+      <a href="/" id="logo" class="navbar-logo">
+        <img
+          src="/assets/images/logo-light.png"
+          alt="Logo"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <nav class="navbar-container">
+        <ul class="flex gap-4">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="flex-[1]">
+      <section id="hero" class="hero">
+        <div class="hero-image">
+          <img
+            src="/assets/images/avatar.svg"
+            alt="Smiling person with hijab in a minimalist style, friendly and simple light background"
+            width="180"
+            height="243"
+          />
+        </div>
+
+        <div class="hero-intro">
+          <h1 class="animate__animated animate__heartBeat">
+            Hello! I'm <span class="text-pink-500">Ale</span>
+          </h1>
+          <p>Ready to build and grow with you :)</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="mt-20 w-full p-4">
+      <p class="text-center text-lg">
+        <span>2025 &copy; Made with</span>
+        <a>
+          <img
+            class="inline"
+            src="/assets/icons/heart-icon.png"
+            alt="heart icon"
+          />
+        </a>
+        <span>by Alethea Almas Fahrana</span>
+      </p>
+    </footer>
+  </body>
+</html>
