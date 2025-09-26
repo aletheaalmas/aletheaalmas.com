@@ -124,14 +124,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 80vh; /* tinggi hampir full layar */
-  gap: 2rem; /* jarak antara gambar dan teks */
-  text-align: left; /* teks tetap rata kiri */
-}
-.hero-intro h1 {
-  font-family: "Playpen Sans", cursive;
-  font-size: 3.5rem;
-  margin-bottom: 1rem;
+  min-height: 80vh;
+  gap: 2rem;
+  text-align: left;
 }
 
 .hero-image img {
@@ -146,17 +141,18 @@ img {
 .hero-intro h1 {
   font-family: "Playpen Sans", cursive;
   font-size: 3.5rem;
+  font-weight: 700;
   margin-bottom: 1rem;
+}
+
+.hero-intro .ale:hover {
+  color: pink;
 }
 
 .hero-intro p {
   font-family: "Mynerve", cursive;
   font-size: 1.5rem;
   margin-bottom: 1rem;
-}
-
-.hero-intro .ale:hover {
-  color: pink;
 }
 
 /* about section */
