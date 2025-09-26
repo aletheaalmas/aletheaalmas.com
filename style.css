@@ -485,3 +485,32 @@ img {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+@media (min-width: 600px) {
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero-image img {
+    width: 270px;
+    height: 364px;
+  }
+
+  .hero-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-intro p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hero-intro h1 {
+    font-size: 3rem;
+  }
+
+  .hero-intro p {
+    font-size: 2rem;
+  }
+}
