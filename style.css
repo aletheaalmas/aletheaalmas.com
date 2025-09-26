@@ -20,15 +20,17 @@ textarea {
   resize: none;
 }
 
-h1, h2, h3, .postit-list{
+h1,
+h2,
+h3,
+.postit-list {
   font-family: "Sniglet", system-ui;
   font-weight: 400;
 }
 
-
 p {
   font-family: "Inter", sans-serif;
-  font-size:medium;
+  font-size: medium;
 }
 
 /* header */
@@ -362,11 +364,16 @@ img {
 }
 .layout-with-sidebar main {
   flex: 1 1 500px;
-  max-width: 100%;
+  gap: 2rem; /* jarak antar article dan sidebar */
+  margin: 0 auto; /* tengah */
+  padding-left: 2.5rem; /* jarak sisi kiri */
+  padding-right: 2rem;
+  max-width: 900px;
 }
+
 .layout-with-sidebar article img {
-  width: 100%;
-  max-width: 100%;
+  width: 80%;
+  max-width: 80%;
   height: auto;
 }
 
