@@ -13,10 +13,22 @@ body {
 body,
 input,
 textarea {
-  font-family: "Inter", sans-serif;
+  font-family: "Inter", sans-serif, "Playpen Sans", cursive, "Sniglet",
+    system-ui;
 }
 textarea {
   resize: none;
+}
+
+h1, h2, h3, .postit-list{
+  font-family: "Sniglet", system-ui;
+  font-weight: 400;
+}
+
+
+p {
+  font-family: "Inter", sans-serif;
+  font-size:medium;
 }
 
 /* header */
@@ -114,6 +126,11 @@ img {
   gap: 2rem; /* jarak antara gambar dan teks */
   text-align: left; /* teks tetap rata kiri */
 }
+.hero-intro h1 {
+  font-family: "Playpen Sans", cursive;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
 
 .hero-image img {
   width: 321px;
@@ -125,11 +142,13 @@ img {
   cursor: default;
 }
 .hero-intro h1 {
-  font-size: 4rem;
+  font-family: "Playpen Sans", cursive;
+  font-size: 3.5rem;
   margin-bottom: 1rem;
 }
 
 .hero-intro p {
+  font-family: "Mynerve", cursive;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -454,5 +473,7 @@ img {
   color: white;
   border: none;
   text-align: center;
-  margin-bottom: 40px;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
