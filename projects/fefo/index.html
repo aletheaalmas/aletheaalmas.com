@@ -4,17 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>FEFO Project-Alethea</title>
-    <meta
-      name="description"
-      content="Section FEFO Project of Alethea Personal Website"
-    />
+    <title>FEFO Projects - Alethea Almas Fahrana</title>
+    <meta name="description" content="Alethea's FEFO projects" />
     <meta name="author" content="Alethea Almas Fahrana" />
-    <meta name="color-scheme" content="dark light" />
+    <!-- <meta name="color-scheme" content="dark light" /> -->
     <link
       rel="icon"
       type="image/png"
-      href="/assets/favicon/favicon-96x96.png"
+      href="../assets/favicon/favicon-96x96.png"
       sizes="96x96"
     />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
@@ -26,6 +23,15 @@
     />
     <meta name="apple-mobile-web-app-title" content="Alethea" />
     <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mynerve&family=Playpen+Sans:wght@100..800&family=Sniglet:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
   </head>
 
   <body class="site">
@@ -49,197 +55,209 @@
       </nav>
     </header>
 
-    <aside class="sidebar">
-      <div class="published-section"></div>
-      <div class="section-title">
-        <h3>Published</h3>
-        <p>August, 2023</p>
-        <a href="#comments" class="comments-link">View Comments</a>
-      </div>
+    <div class="layout-with-sidebar">
+      <main>
+        <article>
+          <h1>Adding FEFO to Ginee WMS</h1>
+          <section id="overview" class="overview">
+            <h3>Overview</h3>
+            <p>
+              Another key project I contributed to was adding a First Expired,
+              First Out (FEFO) feature to a Warehouse Management System (WMS).
+              The idea originated from user requests. At the time, the WMS only
+              supported a FIFO (First In, First Out) outbound method, which
+              caused challenges for sellers dealing with products that have
+              expiration dates, such as food and medicine.
+            </p>
+            <p>
+              To address this, I began with user research, interviewing
+              warehouse teams to understand their day-to-day operations and pain
+              points, and studying competitors’ approaches. After several rounds
+              of research, discussion, and development, our team successfully
+              launched the FEFO feature.While it did not result in a significant
+              user growth (around
+              <b>3–5%</b>, since not all users utilized WMS), it greatly
+              increased satisfaction among existing users who required FEFO.
+            </p>
+          </section>
 
-      <div class="topic-section">
-        <div class="section-title">
-          <h3>Topic</h3>
-        </div>
-        <div class="topic-content">
-          Warehouse Management System<br />
-          Inventory Management System<br />
-          FEFO<br />
-          UX Research<br />
-        </div>
-      </div>
+          <section id="my-contributions">
+            <h2>My Contributions</h2>
+            <p>
+              I supported the product manager by conducting research and
+              providing input for the PRD (Product Requirements Document). Key
+              aspects I worked on included:
+            </p>
+            <ul>
+              <li>
+                Designing adjustments for inventory logic, allowing each
+                product/location to choose FIFO or FEFO
+              </li>
+              <li>
+                Planning multi-level alert notifications before product expiry
+              </li>
+              <li>Mapping inbound flow for FEFO products (desktop & PDA)</li>
+              <li>
+                Updating inventory display to include batch and expiry date
+                information
+              </li>
+              <li>
+                Outbound flow enhancements (picking list updates, PDA
+                integration)
+              </li>
+              <li>Return flow handling for FEFO items</li>
+              <li>
+                Expiration management workflows (e.g., outbound list for
+                products expiring within a quarter)
+              </li>
+              <li>Drafting an NED (Near Expiry Date) report plan</li>
+            </ul>
+            <p>
+              My research and documentation became a valuable reference for the
+              product team in finalizing the PRD and guiding development.
+            </p>
+          </section>
+          <section id="result">
+            <h2>Result</h2>
+            <p>
+              Through these insights, we mapped how FEFO should seamlessly
+              integrate into the existing WMS workflow. This project gave me
+              hands-on experience in translating user needs into system
+              capabilities and ensuring the feature truly supported warehouse
+              operations.
+            </p>
+            <p><i>Glimpse of the planned flows and results:</i></p>
+            <picture>
+              <div class="image-row">
+                <img
+                  src="/assets/images/fefo-image1.png"
+                  alt="Fefo plan outbound setting"
+                />
+                <img
+                  src="/assets/images/fefo-image2.png"
+                  alt="Fefo result outbound setting"
+                />
+              </div>
+              <div class="image-row">
+                <img
+                  src="/assets/images/fefo-image3.png"
+                  alt="Fefo plan picking list"
+                />
+                <img
+                  src="/assets/images/fefo-image4.png"
+                  alt="Fefo result picking list"
+                />
+              </div>
+              <div class="image-row">
+                <img src="/assets/images/fefo-image6.png" alt="Fefo plan pda" />
+                <img
+                  src="/assets/images/fefo-image5.png"
+                  alt="Fefo result pda"
+                />
+              </div>
+            </picture>
+          </section>
+          <section id="link">
+            <h2>Link</h2>
+            <p>
+              If you want to learn more FEFO implementation in Ginee WMS, you
+              can find it
+              <a
+                href="https://ginee.com/id/help/penggunaan-metode-fefo-di-wms/"
+                target="_blank"
+              >
+                <i><b>here</b></i></a
+              >.
+            </p>
+          </section>
+        </article>
+        <section id="comments">
+          <h2>Comments</h2>
 
-      <div class="content-section">
-        <div class="section-title">
+          <section id="contact-form-section">
+            <form class="contact-form">
+              <label for="full-name">Full Name:</label>
+              <input
+                type="text"
+                id="full-name"
+                placeholder="Your Name"
+                required
+                class="item-top-left"
+              />
+
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Your Email"
+                required
+                autocomplete="email"
+                class="item-top-right"
+              />
+
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Message"
+                class="item-bottom"
+              ></textarea>
+
+              <button type="submit" class="button">Submit</button>
+            </form>
+          </section>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <div class="published-section">
+          <h3>Published</h3>
+          <p>August, 2023</p>
+          <a href="#comments" class="comments-link"><p>View Comments</p></a>
+        </div>
+
+        <div id="topics" class="badges">
+          <h3>Topics</h3>
+          <div class="topic-content">
+            <ul>
+              <li>WMS</li>
+              <li>FEFO</li>
+              <li>UX Research</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-section">
           <h3>Content</h3>
-        </div>
-        <ul class="content-list">
-          <li>
-            <a href="#overview">Overview</a>
-          </li>
-          <li>
-            <a href="#my-contributions">My Contributions</a>
-          </li>
-          <li>
-            <a href="#result">Result</a>
-          </li>
-          <li>
-            <a href="#link">Link</a>
-          </li>
-          <li>
-            <a href="#comments">Comments</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <main>
-      <article>
-        <h1>Adding FEFO to Ginee WMS</h1>
-
-        <section id="overview">
-          <h2>Overview</h2>
-          <p>
-            Another key project I contributed to was adding a First Expired,
-            First Out (FEFO) feature to a Warehouse Management System (WMS). The
-            idea originated from user requests. At the time, the WMS only
-            supported a FIFO (First In, First Out) outbound method, which caused
-            challenges for sellers dealing with products that have expiration
-            dates, such as food and medicine.
-          </p>
-          <p>
-            To address this, I began with user research, interviewing warehouse
-            teams to understand their day-to-day operations and pain points, and
-            studying competitors’ approaches. After several rounds of research,
-            discussion, and development, our team successfully launched the FEFO
-            feature.While it did not result in a significant user growth (around
-            <b>3–5%</b>, since not all users utilized WMS), it greatly increased
-            satisfaction among existing users who required FEFO.
-          </p>
-        </section>
-
-        <section id="my-contributions">
-          <h2>My Contributions</h2>
-          <p>
-            I supported the product manager by conducting research and providing
-            input for the PRD (Product Requirements Document). Key aspects I
-            worked on included:
-          </p>
-          <ul>
+          <ul class="content-list">
             <li>
-              Designing adjustments for inventory logic, allowing each
-              product/location to choose FIFO or FEFO
+              <a href="#overview">Overview</a>
             </li>
             <li>
-              Planning multi-level alert notifications before product expiry
-            </li>
-            <li>Mapping inbound flow for FEFO products (desktop & PDA)</li>
-            <li>
-              Updating inventory display to include batch and expiry date
-              information
+              <a href="#my-contributions">My Contributions</a>
             </li>
             <li>
-              Outbound flow enhancements (picking list updates, PDA integration)
+              <a href="#result">Result</a>
             </li>
-            <li>Return flow handling for FEFO items</li>
             <li>
-              Expiration management workflows (e.g., outbound list for products
-              expiring within a quarter)
+              <a href="#link">Link</a>
             </li>
-            <li>Drafting an NED (Near Expiry Date) report plan</li>
+            <li>
+              <a href="#comments">Comments</a>
+            </li>
           </ul>
-          <p>
-            My research and documentation became a valuable reference for the
-            product team in finalizing the PRD and guiding development.
-          </p>
-        </section>
-        <section id="result">
-          <h2>Result</h2>
-          <p>
-            Through these insights, we mapped how FEFO should seamlessly
-            integrate into the existing WMS workflow. This project gave me
-            hands-on experience in translating user needs into system
-            capabilities and ensuring the feature truly supported warehouse
-            operations.
-          </p>
-          <p><i>Glimpse of the planned flows and results:</i></p>
-          <picture>
-            <div class="image-row">
-              <img
-                src="/assets/images/fefo-image1.png"
-                alt="Fefo plan outbound setting"
-              />
-              <img
-                src="/assets/images/fefo-image2.png"
-                alt="Fefo result outbound setting"
-              />
-            </div>
-            <div class="image-row">
-              <img
-                src="/assets/images/fefo-image3.png"
-                alt="Fefo plan picking list"
-              />
-              <img
-                src="/assets/images/fefo-image4.png"
-                alt="Fefo result picking list"
-              />
-            </div>
-            <div class="image-row">
-              <img src="/assets/images/fefo-image6.png" alt="Fefo plan pda" />
-              <img src="/assets/images/fefo-image5.png" alt="Fefo result pda" />
-            </div>
-          </picture>
-        </section>
-        <section id="link">
-          <h2>Link</h2>
-          <p>
-            If you want to learn more FEFO implementation in Ginee WMS, you can
-            find it
-            <a
-              href="https://ginee.com/id/help/penggunaan-metode-fefo-di-wms/"
-              target="_blank"
-            >
-              <i><b>here</b></i></a
-            >.
-          </p>
-        </section>
-      </article>
-      <section id="comments">
-        <h2>Comments</h2>
-
-        <form>
-          <input type="text" id="name" placeholder="Your Name" required />
-          <br />
-
-          <input type="text" id="email" placeholder="Your Email" required />
-          <br />
-
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            cols="40"
-            placeholder="Message"
-          ></textarea>
-          <br />
-          <button type="submit">Submit</button>
-        </form>
-      </section>
-    </main>
+        </div>
+      </aside>
+    </div>
 
     <footer class="footer">
       <p>
-        2025 &copy Made with
-        <span>
-          <a>
-            <img
-              src="/assets/icons/heart-icon.png"
-              alt="heart icon"
-              width="15"
-              height="15"
-            />
-          </a> </span
-        >by Alethea Almas Fahrana
+        <span>2025 &copy; Made with</span>
+        <a>
+          <img src="/assets/icons/heart-icon.png" alt="heart icon" />
+        </a>
+        <span>by Alethea Almas Fahrana</span>
       </p>
     </footer>
   </body>
