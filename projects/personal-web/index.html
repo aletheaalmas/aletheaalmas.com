@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Web Projects - Alethea Almas Fahrana</title>
+    <meta name="description" content="Alethea's Wev projects" />
+    <meta name="author" content="Alethea Almas Fahrana" />
+    <!-- <meta name="color-scheme" content="dark light" /> -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="../assets/favicon/favicon-96x96.png"
+      sizes="96x96"
+    />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/favicon/apple-touch-icon.png"
+    />
+    <meta name="apple-mobile-web-app-title" content="Alethea" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mynerve&family=Playpen+Sans:wght@100..800&family=Sniglet:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body class="site">
+    <header class="navbar">
+      <a href="/" id="logo" class="navbar-logo">
+        <img
+          src="/assets/images/ale-logo.svg"
+          alt="Logo"
+          width="50"
+          height="50"
+        />
+      </a>
+
+      <nav class="navbar-container">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/projects">Projects</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="layout-with-sidebar">
+      <main>
+        <article>
+          <h1>My First Personal Website</h1>
+          <section>
+            <h3>About This Website & My Learning Journey</h3>
+            <p>
+              This is my first personal website, built from scratch using
+              <b>HTML and CSS</b>. I created it to showcase my projects and
+              share my journey in learning web development.
+            </p>
+
+            <p>
+              After being laid off in April 2025, I started looking for new job
+              opportunities and applied to many companies, but things didn’t
+              work out. Then i decide to learn a new skill "web development"
+              while also looking for new job. I began by teaching myself HTML
+              through FreeCodeCamp, but soon realized that I needed proper
+              guidance.
+            </p>
+
+            <p>
+              That’s when I joined a web development mentoring program at
+              <a href="https://bearmentor.com" target="_blank"
+                ><b>Bearmentor</b></a
+              >. My mentor guided me step by step, since I had no prior
+              background in this field. I learned how to use Git, the terminal,
+              code editors, Figma, and much more.
+            </p>
+
+            <p>
+              I started designing the website layout using Figma, looking for
+              inspiration online, creating wireframes, components, and designing
+              each page carefully.
+            </p>
+            <img
+              src="/assets/images/figma.png"
+              alt="figma design"
+              width="836"
+              height="478"
+            />
+            <p>
+              Once the design was ready, I began coding it with HTML and CSS. It
+              took me some time to make the layout match the design, but in the
+              process I learned a lot about CSS properties, flexbox, grid, and
+              responsive design.
+            </p>
+
+            <p>
+              After 1 month of learning, designing, and coding, I was finally
+              able to complete this website. Although it’s still far from
+              perfect and there’s so much more to learn, I plan to keep
+              improving both the features and the design over time.
+            </p>
+          </section>
+        </article>
+
+        <section id="comments">
+          <h2>Comments</h2>
+
+          <section id="contact-form-section">
+            <form class="contact-form">
+              <label for="full-name">Full Name:</label>
+              <input
+                type="text"
+                id="full-name"
+                placeholder="Your Name"
+                required
+                class="item-top-left"
+              />
+
+              <label for="email">Email:</label>
+              <input
+                type="text"
+                id="email"
+                placeholder="Your Email"
+                required
+                autocomplete="email"
+                class="item-top-right"
+              />
+
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                cols="40"
+                placeholder="Message"
+                class="item-bottom"
+              ></textarea>
+
+              <button type="submit" class="button">Submit</button>
+            </form>
+          </section>
+        </section>
+      </main>
+
+      <aside class="sidebar">
+        <div class="published-section">
+          <h3>Published</h3>
+          <p>September, 2025</p>
+          <a href="#comments" class="comments-link"><p>View Comments</p></a>
+        </div>
+
+        <div id="topics" class="badges">
+          <h3>Topics</h3>
+          <div class="topic-content">
+            <ul>
+              <li>Personal Website</li>
+              <li>Learning Journey</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-section">
+          <h3>Content</h3>
+          <ul class="content-list">
+            <li>
+              <a href="#overview">Web Story</a>
+            </li>
+            <li>
+              <a href="#comments">Comments</a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <footer class="footer">
+      <p>
+        <span>2025 &copy; Made with</span>
+        <a>
+          <img src="/assets/icons/heart-icon.png" alt="heart icon" />
+        </a>
+        <span>by Alethea Almas Fahrana</span>
+      </p>
+    </footer>
+  </body>
+</html>
