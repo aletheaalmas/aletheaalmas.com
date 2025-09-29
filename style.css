@@ -110,7 +110,7 @@ img {
 .footer {
   margin-top: 40px;
   width: 100%;
-  font-size: 13px;
+  font-size: 4px;
   text-align: center;
 }
 .footer .heart-icon {
@@ -485,3 +485,38 @@ img {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+@media (min-width: 600px) {
+  .hero {
+    gap: 2rem;
+  }
+
+  .hero-image img {
+    width: 270px;
+    height: 364px;
+  }
+
+  .hero-intro h1 {
+    font-size: 2rem;
+  }
+
+  .hero-intro p {
+    font-size: 1rem;
+  }
+.footer{
+  font-size: 5px;}
+}
+
+  @media (min-width: 1024px) {
+  .hero-intro h1 {
+    font-size: 3rem;
+  }
+
+  .hero-intro p {
+    font-size: 1.5rem;
+  }
+
+  .footer{
+  font-size: 8px;}
+}
+
