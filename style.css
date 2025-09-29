@@ -435,12 +435,27 @@ img {
   font-weight: bold;
   color: #e52348;
 }
+
+.image-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.link a:hover {
+  color: pink;
+}
+
 .contact-form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 50px auto;
   margin-top: 5px;
-  gap: 10px;
+  gap: 40px;
 }
 
 .contact-form input,
@@ -503,11 +518,12 @@ img {
   .hero-intro p {
     font-size: 1rem;
   }
-.footer{
-  font-size: 5px;}
+  .footer {
+    font-size: 5px;
+  }
 }
 
-  @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .hero-intro h1 {
     font-size: 3rem;
   }
@@ -516,7 +532,7 @@ img {
     font-size: 1.5rem;
   }
 
-  .footer{
-  font-size: 8px;}
+  .footer {
+    font-size: 8px;
+  }
 }
-
