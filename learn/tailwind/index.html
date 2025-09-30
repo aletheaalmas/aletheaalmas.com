@@ -33,26 +33,23 @@
     />
 
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <style type="text/tailwindcss">
-      @theme {
-        --color-clifford: #da373d;
-      }
-    </style>
   </head>
 
   <body class="site">
-    <header class="navbar">
+    <header
+      class="flex justify-between items-center text-lg z-100 sticky py-2 px-3 bg-yellow-50 border-b-2 border-yellow-950"
+    >
       <a href="/" id="logo" class="navbar-logo">
         <img
           src="/assets/images/ale-logo.svg"
           alt="Logo"
-          width="50"
-          height="50"
+          width="70"
+          height="70"
         />
       </a>
 
-      <nav class="flex justify-between align-center list-none gap-1.5">
-        <ul>
+      <nav>
+        <ul class="flex justify-between align-center list-none gap-6">
           <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/projects">Projects</a></li>
