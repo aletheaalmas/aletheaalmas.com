@@ -37,15 +37,10 @@
 
   <body class="site">
     <header
-      class="flex justify-between items-center text-lg z-100 sticky py-2 px-3 bg-yellow-50 border-b-2 border-yellow-950"
+      class="flex justify-between items-center text-lg z-100 sticky py-2 px-3 border-b-2 border-yellow-950"
     >
-      <a href="/" id="logo" class="navbar-logo">
-        <img
-          src="/assets/images/ale-logo.svg"
-          alt="Logo"
-          width="70"
-          height="70"
-        />
+      <a href="/" id="logo" class="size-60px">
+        <img src="/assets/images/ale-logo.svg" alt="Logo" />
       </a>
 
       <nav>
@@ -59,29 +54,29 @@
     </header>
 
     <main>
-      <section id="hero" class="hero">
-        <div class="hero-image">
-          <img
-            src="/assets/images/avatar.svg"
-            alt="Smiling person with hijab in a minimalist style, friendly and simple light background"
-            width="180"
-            height="243"
-          />
+      <section
+        id="hero"
+        class="flex justify-center items-center min-h-[80vh] gap-4 text-left"
+      >
+        <div class="w-180px h-243px">
+          <img src="/assets/images/avatar.svg" alt="avatar" />
         </div>
-
-        <div class="hero-intro">
-          <h1 class="hero-intro-hello">
-            Hello! I'm <span class="ale">Ale</span>
+        <div class="max-w-400px">
+          <h1 class="font-[Playpen_Sans] text-3xl font-bold mb-4">
+            Hello! I'm <span class="hover:decoration-pink-300">Ale</span>
           </h1>
-          <p>Ready to build and grow with you :)</p>
+          <p class="font-[Mynerve] text-lg">
+            Ready to build and grow with you :)
+          </p>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <p>
+   
+    <footer class="mt-40px w-full text-sm text-center">
+      <p class="flex items-center justify-center">
         <span>2025 &copy; Made with</span>
         <a>
-          <img src="/assets/icons/heart-icon.png" alt="heart icon" />
+          <img class="w-5 h-5 mx-1" src="/assets/icons/heart-icon.png" alt="heart icon" />
         </a>
         <span>by Alethea Almas Fahrana</span>
       </p>
