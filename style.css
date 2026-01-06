@@ -388,6 +388,9 @@ img {
   flex: 0 1 250px;
   border-left: 2px solid black;
   padding-top: 1rem;
+  position: sticky;
+  top: 1.5rem;
+  align-self: flex-start;
 }
 
 /* style setiap section */
