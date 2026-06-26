@@ -200,7 +200,9 @@ img {
   color: black;
   font-size: var(--font-size-default);
   cursor: default;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .badges ul li:hover {
@@ -379,6 +381,11 @@ img {
   width: 80%;
   max-width: 80%;
   height: auto;
+}
+
+.social-icon {
+  width: 25px !important;
+  height: 25px !important;
 }
 
 /* sidebar */
